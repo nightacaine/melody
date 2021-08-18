@@ -49,3 +49,20 @@ body {
 	line-height: 20px;
 	color: white;
 }
+.main {
+	max-width: 1280px;
+	margin: auto;
+	padding-top: 54px;
+	display: flex;
+}
+.main-info {
+	flex-grow: 1;
+	text-align: center;
+}
+.home__image path {
+	opacity: 0;
+	cursor:pointer;
+}
+.home__image path:hover {
+	opacity: 1;
+}
